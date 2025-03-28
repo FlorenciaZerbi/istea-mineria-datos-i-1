@@ -1,0 +1,40 @@
+Sistema de Recomendación de Libros
+
+Desarrolla un sistema de recomendación de libros en Python. La aplicación debe permitir a
+los usuarios buscar libros por género y recibir recomendaciones basadas en sus intereses.
+
+Instrucciones:
+1) Define una clase llamada “Libro” con los siguientes atributos: titulo, autor, genero y
+puntuacion (valor numérico que representa la popularidad del libro). Crea un método
+__init__ para inicializar estos atributos.
+2) Crea una lista llamada lista_libros donde almacenarás los objetos de la clase Libro.
+3) Implementa un bucle que permita a los usuarios realizar las siguientes acciones:
+○ Agregar Libro: Solicita al usuario que ingrese el título, autor, género y
+puntuación del libro. Crea un objeto Libro con estos atributos y agrega el
+objeto a la lista lista_libros.
+○ Buscar Libros por Género: Pregunta al usuario por un género y muestra
+una lista de títulos de libros en ese género.
+○ Recomendar Libro: Pregunta al usuario por su género de interés y muestra
+el título del libro con la puntuación más alta en ese género.
+4) Ejecuta el bucle hasta que el usuario decida salir de la aplicación.
+
+A continuación se le proporciona un listado de libros que serán utilizados para probar su
+programa:
+libro1 = Libro("Cien años de soledad", "Gabriel García Márquez", "Ficción", 4.5)
+libro2 = Libro("1984", "George Orwell", "Ciencia Ficción", 4.3)
+libro3 = Libro("El Hobbit", "J.R.R. Tolkien", "Fantasía", 4.7)
+libro4 = Libro("Orgullo y Prejuicio", "Jane Austen", "Romance", 4.2)
+libro5 = Libro("Crimen y Castigo", "Fiódor Dostoyevski", "Clásico", 4.4)
+libro6 = Libro("Los Juegos del Hambre", "Suzanne Collins", "Juvenil", 4.1)
+libro7 = Libro("Don Quijote de la Mancha", "Miguel de Cervantes", "Clásico", 4.6)
+libro8 = Libro("Harry Potter y la Piedra Filosofal", "J.K. Rowling", "Fantasía", 4.8)
+libro9 = Libro("Los Pilares de la Tierra", "Ken Follett", "Histórica", 4.4)
+libro10 = Libro("Cazadores de Sombras: Ciudad de Hueso", "Cassandra Clare", "Fantasía", 4.0)
+
+Plus (si le da tiempo):
+Agregar las instrucciones necesarias para que los datos sobre los libros sean leídos por el
+programa desde un archivo CSV y los agregue a la lista de libros.
+
+Entrega
+El programa debe ser entregado vía git/github al repositorio que Ud. compartió con el
+profesor en la branch “dev”.
